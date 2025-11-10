@@ -32,7 +32,12 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Runs a single command using the runners shell
-    - name: Send greeting
+    - name: firt
+      uses: actions/checkout@v4
+    - name: dependencies
+    - name: sh
+    - name: cmake oou make
+    - name: run
       run: |
         sudo apt-get install libsdl2-ttf-dev
         cmake ../CMakeLists.txt
